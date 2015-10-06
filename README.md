@@ -1,6 +1,6 @@
 # Basic Underwater Demolition Training
 
-This is Basic Underwater Demolition Training, where a junior developer becomes a senior. No excuses. No mercy.
+This is Basic Underwater Demolition Training, where a junior JavaScript developer becomes a senior one. No excuses. No mercy.
 
 ## Workout Phases
 
