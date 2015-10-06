@@ -7,8 +7,8 @@ This is Basic Underwater Demolition Training, where a junior JavaScript develope
 1. Go to `https://codility.com/programmers/lessons/`.
 1. Pick up a next task.
 1. Code a solution in the `solution.js` file.
-1. Boost coding by reusing live tests and algorithms in the `toolbox/`.
-1. No idea? Check a 100%/100% solution in the `lessons/`.
+    1. Boost coding by reusing live tests and algorithms in the `toolbox/`.
+    1. No idea? Check a 100%/100% solution in the `lessons/`.
 1. Go back to the 2. item.
 
 Never surrender! Go, go!
