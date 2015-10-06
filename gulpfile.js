@@ -4,13 +4,13 @@ var gutil = require('gulp-util');
 
 function showDivider() {
   var i;
-  
+
   for (i = 0; i < process.argv.length; i++) {
     if (process.argv[i] === '--divider') {
       return true;
     }
   }
-  
+
   return false;
 }
 
@@ -28,15 +28,15 @@ gulp.task('test-solutions', function () {
   if (showDivider()) {
     console.log('<----------------->');
   }
-  
+
   return gulp.src(paths.solutions)
     .pipe(mocha({ reporter: 'spec' }));
 });
 
-gulp.task('test-solutions-watch', function () {  
+gulp.task('test-solutions-watch', function () {
   gulp.watch(paths.solutions, ['test-solutions']);
 });
 
-gulp.task('interview', ['test-solutions', 'test-solutions-watch']);
+gulp.task('live-tests', ['test-solutions', 'test-solutions-watch']);
 
-gulp.task('default', ['interview']);
+gulp.task('default', ['live-tests']);
