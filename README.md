@@ -25,7 +25,7 @@ Run live tests:
 
     gulp
 
-...or `gulp --divider` to have separator between runs.
+...or `gulp --divider` to enable separator between runs.
 
 ## Testing
 
