@@ -1,0 +1,17 @@
+{
+  "name": "bud-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution.js",
+  "scripts": {
+    "test": "gulp --simple interview"
+  },
+  "author": "Tomasz Oponowicz",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.2",
+    "gulp-util": "^3.0.6"
+  }
+}
